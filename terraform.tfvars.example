@@ -1,0 +1,11 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is gitignored.
+
+region             = "us-east-1"
+aws_profile        = ""
+project_tag        = "explore-aws-credits"
+name_prefix        = "explore"
+budget_amount_usd  = 10
+budget_alert_email = "you@example.com"
+db_name            = "appdb"
+db_username        = "appuser"
+ec2_create         = true
